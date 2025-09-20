@@ -1,4 +1,4 @@
-public class Car01 {
+public class Car01 {  // class is public, it means it is possible to make its object
 
     private String color;   // data members
     private String brand;
