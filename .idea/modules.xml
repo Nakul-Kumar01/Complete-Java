@@ -13,6 +13,8 @@
       <module fileurl="file://$PROJECT_DIR$/Lecture19_Encapsulation/Lecture19_Encapsulation.iml" filepath="$PROJECT_DIR$/Lecture19_Encapsulation/Lecture19_Encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture20_Constructor/Lecture20_Constructor.iml" filepath="$PROJECT_DIR$/Lecture20_Constructor/Lecture20_Constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture21_Inheritance/Lecture21_Inheritance.iml" filepath="$PROJECT_DIR$/Lecture21_Inheritance/Lecture21_Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture22_polymorphism/Lecture22_polymorphism.iml" filepath="$PROJECT_DIR$/Lecture22_polymorphism/Lecture22_polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture23_Abstraction/Lecture23_Abstraction.iml" filepath="$PROJECT_DIR$/Lecture23_Abstraction/Lecture23_Abstraction.iml" />
     </modules>
   </component>
 </project>
