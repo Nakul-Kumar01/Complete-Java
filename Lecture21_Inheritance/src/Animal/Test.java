@@ -9,6 +9,8 @@ public class Test {
         dog.age = 19; // Dog is inheriting the properties of Animal
         System.out.println(dog.age);
 
+
+
         dog.setAge(2);
         System.out.println(dog.age);
         dog.sayHello(); // method of Dog will be called, since Dog has override this method
