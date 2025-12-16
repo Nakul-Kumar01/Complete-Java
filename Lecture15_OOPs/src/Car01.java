@@ -55,7 +55,5 @@ public class Car01 {  // class is public, it means it is possible to make its ob
         if(speed <  0)
             speed =0;
     }
-
-
 }
 

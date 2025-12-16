@@ -1,6 +1,6 @@
 public class Car02 {
     public static void main(String[] args) {
-        Car01 car = new Car01();  // it is allowed to make object of same class in itself
+        Car01 car = new Car01();
 //        car.color = "Blue";
 //        car.speed = 40;
 //        car.brand = "Tata";
