@@ -6,7 +6,7 @@ public class Student {
     private int age;
 
 
-     // if we overload the constructor, then default constructor will not form
+     // if we overload the constructor, then default constructor will not form automatically
     public Student(){   // we have overloaded the Default constructor
         this.age = 0;
     }
