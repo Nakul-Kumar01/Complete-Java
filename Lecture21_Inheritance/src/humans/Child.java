@@ -13,8 +13,8 @@ public class Child extends Parent {
     }
 
     public void childMethod(){
-        super.parentMethod(); // we can call parent class methods also // it is not neccessary to write this line on top
         System.out.println("Child method called");
+        super.parentMethod(); // we can call parent class methods also // it is not neccessary to write this line on top
     }
 
 }
