@@ -10,7 +10,7 @@ public class Student {
      public void setAge(int age){
          if(age<0) System.out.println("Invalid age");;  // now, we are able to add conditions
          this.age = age;   // this -> points to current object   
-     }    
+     }         
 
      
      
