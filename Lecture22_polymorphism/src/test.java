@@ -16,7 +16,7 @@ public class test {
         // but in java it will run method of Dog
         Animal dog = new Dog(); // at runtime, it is decided by jvm that dog has reference of object of Dog // this is runtime polymorphism(method overriding)
         dog.sayHello();
-//        dog.sayBye();  // not possible, according to the rule
+//        dog.sayBye();  // *** not possible, according to the rule ***
 
         Animal cat = new Cat();
         cat.sayHello();  // hence, same methods but different result

@@ -11,10 +11,22 @@ public abstract class Animal {
   - but we can use Abstract class for reference , Animal dog1 = new Dog();  // aisa hi krte hai for building applications WHY??
   - Clients focus on what an object does, not how it does it // client can access only override methods
   - also Animal is very genric term, how it will 'say Hello' : so we define abstract method in abstract class(Animal), and their implementation in child class(Dog)
-  - Abstract classes should not hv public constructors. Constructors of abstract classes can only be called in constructors of their subclasses(making object is not possible). so there is no point in making them public. the protected modifier should be enough
+  - *** Abstract classes should not hv public constructors. Constructors of abstract classes can only be called in constructors of their subclasses(making object is not possible). so there is no point in making them public. the protected modifier should be enough
  */
 
-    public abstract void sayHello();  //Abstract Method
+    protected Animal(){
+
+    }
+
+
+    protected abstract void sayHello();  //Abstract Method
+    // abstract method ko private kr nhi skte kyoki firr override kaise hoga
+    // *** default(package private) kiya tho child mei override nhi hoga
+    // *** protected : it will be fine so that we can override in child class
+    // public krne ka mtlb nhi bnta, kyoki object tho create hi nhi hota abstract method ka
+
+    // *** hence, Abstract class mei hmm Constructor and abstract methods ko protected krte hn
+
 
     public void sleep(){    // Normal Method (concrete method)
         System.out.println("zzz...");
