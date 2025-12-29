@@ -12,6 +12,13 @@ public abstract class Animal {
   - Clients focus on what an object does, not how it does it // client can access only override methods
   - also Animal is very genric term, how it will 'say Hello' : so we define abstract method in abstract class(Animal), and their implementation in child class(Dog)
   - *** Abstract classes should not hv public constructors. Constructors of abstract classes can only be called in constructors of their subclasses(making object is not possible). so there is no point in making them public. the protected modifier should be enough
+
+  - In abstract class:
+     - we can use static variable : Shared across all subclasses, Accessed using class name
+     - we can use Static methods : Cannot be abstract, Cannot be overridden, only hidden , Called using class name
+     - we can use Static blocks : Executes once when class is loaded
+
+     - Static abstract methods is NOT allowed bcoz: abstract requires overriding -> static methods cannot be overridden
  */
 
     protected Animal(){

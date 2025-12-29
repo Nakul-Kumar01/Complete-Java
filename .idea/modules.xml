@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lecture21_Inheritance/Lecture21_Inheritance.iml" filepath="$PROJECT_DIR$/Lecture21_Inheritance/Lecture21_Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture22_polymorphism/Lecture22_polymorphism.iml" filepath="$PROJECT_DIR$/Lecture22_polymorphism/Lecture22_polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture23_Abstraction/Lecture23_Abstraction.iml" filepath="$PROJECT_DIR$/Lecture23_Abstraction/Lecture23_Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture24_Access_Modifier/Lecture24_Access_Modifier.iml" filepath="$PROJECT_DIR$/Lecture24_Access_Modifier/Lecture24_Access_Modifier.iml" />
     </modules>
   </component>
 </project>
