@@ -10,5 +10,12 @@ public class Animal {
         this.sound = sound;
     }
 
+    public void makeSound(){
+        System.out.println(name + " make a sound "+ sound);
+    }
+
+    protected void changeSound(String newSound){
+        this.sound = newSound;
+    }
 
 }

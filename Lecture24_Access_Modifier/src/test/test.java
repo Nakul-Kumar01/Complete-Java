@@ -2,6 +2,7 @@ package test;
 
 import school.Student;
 import school.Student02;
+import zoo.Dog;
 
 public class test {
     public static void main(String[] args) {
@@ -36,6 +37,14 @@ public class test {
         Student02 st2 = Student02.getInstance();  // always return same constructor
 
 
+        Dog dog = new Dog("Bob");
+        dog.makeSound();
+//        dog.changeSound("woof");  // changeSound has protected access in 'zoo.Dog'
 
+
+
+//      difference b/w protected and default ??
+//        - protected:  Accessible within the same package and in subclasses(child class) outside the package.
+//        - default: Accessible only within the same package
     }
 }
