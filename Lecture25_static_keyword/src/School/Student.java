@@ -2,11 +2,15 @@ package School;
 
 public class Student {
 
-    public int count = 0;
+    public static int count = 0;
+
+    public Student(){
+        count++;
+    }
 
     private int id;
     private String name;
-    public int age;
+    private int age;
 
     public int getId() {
         return id;
@@ -31,4 +35,23 @@ public class Student {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public static void getCount(){
+        System.out.println("Total Sudent: " + count);
+//        System.out.println(age); // we cannot use non-static variable inside static field
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

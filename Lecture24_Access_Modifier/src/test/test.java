@@ -1,7 +1,7 @@
 package test;
 
 import school.Student;
-import school.Student02;
+import school.Student02_ques;
 import zoo.Dog;
 
 public class test {
@@ -34,7 +34,7 @@ public class test {
 
         // only one object is allowed
         // Student02 st1 = new Student02();   // not allowed due to private constructor
-        Student02 st2 = Student02.getInstance();  // always return same constructor
+        Student02_ques st2 = Student02_ques.getInstance();  // always return same constructor
 
 
         Dog dog = new Dog("Bob");
