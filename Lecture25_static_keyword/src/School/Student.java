@@ -2,6 +2,11 @@ package School;
 
 public class Student {
 
+    static {
+        System.out.println("hello i am static Block");
+    }
+
+
     public static int count = 0;
 
     public Student(){

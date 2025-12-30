@@ -6,13 +6,19 @@ public class test {
         - Static keyword:
             - used with variables, methods, blocks and nested classes and Not with Classes
             - belongs to class rather than instances of the class
-            - memory is initialised only once
-            - static element cannot call non-static element, but non-static element can use static elements
+            - memory is initialised only once, before any instance is created static variables get initialised
+            - *** static element cannot call or use non-static element, but non-static element can use static elements
             - can we use static elements with objects also or only with class name ??? // we can use both method
-
+            - this and super cannot be used in static context
 
             - *** when we use Static with any element then we cannot override that element, this is the only reason we cannot use abstract keyword with static keyword
-              , bcoz abstract method needs to be override in child class or child class need to be abstract as well.
+              ,bcoz abstract method needs to be override in child class or child class need to be abstract as well.
+
+            - useCase: we define frequently used methods in utils class as static i.e min/max . so that we can use them directly by utils.min(a,b)
+            - Static Block: executes when class gets load in memory
+               - need?? to initialise static variables. Hm vaise tho initialise krhi skte hn, but agr kuch logic ya if/else use krne ho tho we use static block
+
+
 
             - why static method cannot be overriden???
 
