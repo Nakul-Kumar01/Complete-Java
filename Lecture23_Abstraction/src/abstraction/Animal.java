@@ -19,6 +19,21 @@ public abstract class Animal {
      - we can use Static blocks : Executes once when class is loaded
 
      - Static abstract methods is NOT allowed bcoz: abstract requires overriding -> static methods cannot be overridden
+
+   - abstract keyword is used only with classes and methods.
+   - abstract keywords not used with:-
+| Not Allowed With                         | Reason                              |
+| ---------------------------------------- | ----------------------------------- |
+| variables                                | Variables need values               |
+| constructors                             | Constructors must have a body       |
+| static methods                           | Static methods cannot be overridden |
+| final methods                            | `final` prevents overriding         |
+| private methods                          | Cannot be overridden                |
+| final classes                            | Cannot be extended                  |
+| interfaces (methods implicitly abstract) | No need                             |
+
+
+
  */
 
     protected Animal(){
