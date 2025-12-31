@@ -21,7 +21,15 @@ public class test {
 
 
             - why static method cannot be overriden???
+                - Static methods cannot be overridden because overriding depends on objects and runtime polymorphism,
+                  while static methods belong to the class and are resolved at compile time.
 
+            - can we initialise static variable in constructor in java??
+                - Yes, it is possible, but it is NOT recommended.
+                - Every time an object is created, constructor runs and Static variable will be reinitialized again and again
+                - Best Ways to Initialize Static Variables: 1) Direct initialization  2) Static block (BEST)
+                - You cannot use constructor to initialize 'final static constants' , bcoz -> "Bhai ye ek hi barr create hoga oor Constant hoga" // in Lecture26
+                - when we use single keyword static or final anyOne then we can use Constructor for initialisation
          */
 
         Student st = new Student();
