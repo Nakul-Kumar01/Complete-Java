@@ -1,9 +1,12 @@
 package zoo;
 
-public class Dog extends Animal {
+public class Dog  extends Animal{
+    String region ;
 
-    public Dog(String name) {
+    public Dog(String name,String region) {
         super(name, "Bark");
+        this.region = region;
+        System.out.println(age);  // age is default and accessible in same package by inheritance and by object reference BOTH
     }
 
     public void wagTail() {
@@ -16,6 +19,6 @@ public class Dog extends Animal {
 
     @Override
     protected void changeSound(String newSound) {
-        changeSound(newSound);
+        this.sound = newSound;
     }
 }

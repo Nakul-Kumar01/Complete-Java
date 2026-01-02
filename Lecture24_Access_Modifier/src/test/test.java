@@ -18,6 +18,20 @@ public class test {
 
         - *** class can only hv public as well as default access modifier
 
+        //   🔒 default (package-private)
+        //        Accessible only within the same package (by inheritance and by object reference BOTH)
+        //        ❌ Not accessible outside the package (even by subclasses)
+        //
+        //   🛡️ protected
+        //        Accessible within the same package (like default : by inheritance and by object reference BOTH)
+        //        ✅ Accessible in subclasses outside the package, But only through inheritance, not with object reference
+
+
+        - protected in C++:
+        ✅ Can be accessed inside the class
+        ✅ Can be accessed inside derived (child) classes
+        ❌ Cannot be accessed using an object reference, even inside a derived class
+
 
         - important points:
          - static method cannot be override, therefore we cannot use static abstract method
@@ -37,14 +51,11 @@ public class test {
         Student02_ques st2 = Student02_ques.getInstance();  // always return same constructor
 
 
-        Dog dog = new Dog("Bob");
+        Dog dog = new Dog("Bob","africa");
         dog.makeSound();
 //        dog.changeSound("woof");  // changeSound has protected access in 'zoo.Dog'
+//        System.out.println(dog.region); // default access
 
 
-
-//      difference b/w protected and default ??
-//        - protected:  Accessible within the same package and in subclasses(child class) outside the package.
-//        - default: Accessible only within the same package
     }
 }

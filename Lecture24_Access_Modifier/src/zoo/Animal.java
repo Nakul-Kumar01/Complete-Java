@@ -3,6 +3,7 @@ package zoo;
 public class Animal {
     private String name;
     protected  String sound;
+    int age = 12;
 
 
     public Animal(String name, String sound){
