@@ -13,6 +13,7 @@ public abstract class Animal {
   - Clients focus on what an object does, not how it does it // client can access only override methods
   - also Animal is very genric term, how it will 'say Hello' : so we define abstract method in abstract class(Animal), and their implementation in child class(Dog)
   - *** Abstract classes should not hv public constructors. Constructors of abstract classes can only be called in constructors of their subclasses(making object is not possible). so there is no point in making them public. the protected modifier should be enough
+  - Protected is used in abstract classes to allow subclass access while preventing misuse by external code, maintaining encapsulation and flexibility.
 
   - In abstract class:
      - we can use static variable : Shared across all subclasses, Accessed using class name
@@ -34,19 +35,21 @@ public abstract class Animal {
 | interfaces (methods implicitly abstract) | No need                             |
 
 
+   - Why we need constuctor in abstract class??
+     - Even though you cannot create an object of an abstract class: The constructor is still needed because: Abstract class is extended and Constructor is called when child object is created to Set up base state for all child classes
 
  */
-
-    protected Animal(){
-
+    int age;   // instance variable
+    protected Animal(){  // to initialise instance variable
+       age = 6;
     }
 
 
     protected abstract void sayHello();  //Abstract Method
     // abstract method ko private kr nhi skte kyoki firr override kaise hoga
-    // *** default(package private) kiya tho child mei override nhi hoga
-    // *** protected : it will be fine so that we can override in child class
-    // public krne ka mtlb nhi bnta, kyoki object tho create hi nhi hota abstract method ka
+    // public krne ka mtlb nhi bnta, kyoki object tho create hi nhi hota abstract method ka // Allows method to be called from outside, even though logic depends on child class
+    // *** default(package private) : Accessible only inside same package, If subclass is in another package, it cannot override it // therefore we cannot use it
+    // *** protected : it will be fine so that we can override in child class, Works even if subclass is in another package , Not accessible to outside world
 
     // *** hence, Abstract class mei hmm Constructor and abstract methods ko protected krte hn
 
