@@ -16,7 +16,7 @@ public class Hotel {
 
     public void reserveRoom(String guestName, int numOfRooms){
 
-        class ReservationValidator{
+        class ReservationValidator{  // since iska hm yahi use krenge orr kahi use nhi krenge // therefore yahi likh diya
             boolean validate(){
                 if(guestName == null || guestName.isBlank()){
                     System.out.println("Guest name can not be empty!");

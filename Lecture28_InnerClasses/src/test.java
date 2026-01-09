@@ -16,13 +16,16 @@ public class test {
              - hmme pata hai dono alag chij hai(Computer and USB), bss hmmne group krdiya hai
              - kitne bhi computer banalo, USB tho ek hi rahegi
              - helps in memory Management, sari computer se related chij Computer class me hai
+             - only able to access static properties
 
            # Anonymous Inner Class:
              - if you want to create object of Implementation class without creating Implementation class
              - if you want to create object for one time use
 
            # Local Inner Class:
-             -
+             - method ke andrr koi class banani hai, usska scope vahi tk hi hoga, method ke bahrr uska scope destroy ho jayega
+             - jb koi class hmme sirf vahi use krni hai, orr kahi use nhi hogi , then make local Inner Class i.e. ReservationValidator class
+             - can access properties of class
          */
 
 
