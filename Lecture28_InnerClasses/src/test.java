@@ -20,6 +20,9 @@ public class test {
            # Anonymous Inner Class:
              - if you want to create object of Implementation class without creating Implementation class
              - if you want to create object for one time use
+
+           # Local Inner Class:
+             -
          */
 
 
@@ -44,5 +47,11 @@ public class test {
                 System.out.println("Paid " + amount + " using Credit Card.");
             }
         });
+
+
+        // Local Inner Class:
+        Hotel h1 = new Hotel("sunsine Hotel",10,5);
+        h1.reserveRoom("Ankit",5);
+        h1.reserveRoom("bhanu",1);
     }
 }
