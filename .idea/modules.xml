@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lecture26_Final/Lecture26_Final.iml" filepath="$PROJECT_DIR$/Lecture26_Final/Lecture26_Final.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture27_Interfaces/Lecture27_Interfaces.iml" filepath="$PROJECT_DIR$/Lecture27_Interfaces/Lecture27_Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture28_InnerClasses/Lecture28_InnerClasses.iml" filepath="$PROJECT_DIR$/Lecture28_InnerClasses/Lecture28_InnerClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture29_Exception/Lecture29_Exception.iml" filepath="$PROJECT_DIR$/Lecture29_Exception/Lecture29_Exception.iml" />
     </modules>
   </component>
 </project>
