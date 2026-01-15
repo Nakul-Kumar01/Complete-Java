@@ -15,7 +15,7 @@ public class test {
         - but in abstract class also contains regular(concrete) methods also which are not allowed in Interfaces
 
         - In Interfaces we hv abstaract methods and static constants
-        - Interfaces have two useCases: multiple Inheritance and to achieve pure abstraction
+        - Interfaces have two useCases: multiple Inheritance and to achieve pure(100%) abstraction
         - in Interfaces 'public abstract' is already mentioned
         - object of interfaces are not allowed
         - class which implements the interface should override the methods of Interface or declare that class Abstract
