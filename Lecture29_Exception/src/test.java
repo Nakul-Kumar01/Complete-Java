@@ -1,3 +1,7 @@
+import School.Student;
+
+import java.io.IOException;
+
 public class test {
     public static void main(String[] args) {
         /*
@@ -9,7 +13,8 @@ public class test {
         - Program will crash during runtime error i.e divide by 0
         - Exception : event that disrupts the normal flow of program. it is an object which is thrown at runtime
         - Exception handling is a way to handle the runtime errors so that normal flow of the application can be maintained
-
+        - we can use multiple catch functions
+        - in a catch function we can write multiple Exception but they should be disjoint
 
         Note: 1) all classes which we define or pre-made extends Object class directly or indirectly
               2) Throwable class extends Object class
@@ -24,10 +29,18 @@ public class test {
 
     public static int divide(int a,int b){
         try{
+            Student st = null;
+            st.setId(123);
+            System.out.println(st.getId());
             return (a/b);
         }
-        catch (ArithmeticException e){
+        catch (ArithmeticException | IndexOutOfBoundsException e){ // agr aise likha hai tho koi kisika parent nhi hona chaiye(you cannot write RuntimeException) // since, RuntimeException is parent of ArithmeticException then we can also use RuntimeException here
             System.out.println(e); // by the toString method in Throwable Class
+            return -1;
+        }
+
+        catch(Exception e){   // or baki k exception yaha handle ho jaenge
+            System.out.println(e);
             return -1;
         }
     }
