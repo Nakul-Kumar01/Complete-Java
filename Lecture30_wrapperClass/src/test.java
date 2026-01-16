@@ -23,5 +23,16 @@ public class test {
 
 
         Integer x = null; // can store null
+        System.out.println(Integer.max(2,4));
+        String st = "456";
+        System.out.println(Integer.valueOf(st));
+
+
+        Integer p = 1;
+        Integer q = 1;
+        Integer r = 3;
+        System.out.println(p==q); // ye bhi work krta hai
+        System.out.println(p == r);
+        System.out.println(p.equals(r) );  // since, these are objects therefore we can use this also
     }
 }
