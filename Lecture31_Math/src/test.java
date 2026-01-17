@@ -20,6 +20,6 @@ public class test {
         System.out.println(Math.log10(10)); // 9
         System.out.println(Math.PI);  // 10
         System.out.println(Math.E); // 11
-        System.out.println(Math.random());
+        System.out.println(Math.random()); // 12
     }
 }
