@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println(DayClass.sunday);
-        System.out.println(DayClass.monday);
+        System.out.println(DayClass.monday); // by Interface
+        System.out.println(Day.Sunday);  // by enum
     }
 }
