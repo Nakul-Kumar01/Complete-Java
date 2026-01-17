@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lecture28_InnerClasses/Lecture28_InnerClasses.iml" filepath="$PROJECT_DIR$/Lecture28_InnerClasses/Lecture28_InnerClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture29_Exception/Lecture29_Exception.iml" filepath="$PROJECT_DIR$/Lecture29_Exception/Lecture29_Exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture30_wrapperClass/Lecture30_wrapperClass.iml" filepath="$PROJECT_DIR$/Lecture30_wrapperClass/Lecture30_wrapperClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture31_Math/Lecture31_Math.iml" filepath="$PROJECT_DIR$/Lecture31_Math/Lecture31_Math.iml" />
     </modules>
   </component>
 </project>
