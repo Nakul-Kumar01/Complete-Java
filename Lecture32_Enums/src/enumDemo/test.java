@@ -17,6 +17,7 @@ public class test {
 
         - hmm enum ke andrr methods bhi define krr skte hn
         - hmm custom constructor bhi bana skte hn enum ke andr
+        - enum ko hmm class ke andrr bhi likh skte hn
 
          */
 
@@ -41,5 +42,33 @@ public class test {
         }
 
         monday.display();
+
+
+        // ### we can apply switch case on enum:
+        Day saturday = Day.Saturday;
+
+        // old switch case:
+        switch (saturday){
+            case Monday:{
+                System.out.println("Today is monday");
+                break;
+            }
+            case Tuesday:{
+                System.out.println("Today is Tuesday");
+                break;
+            }
+            default:{
+                System.out.println("Weekend !!");
+            }
+        }
+
+        // new switch case:
+        String res = switch (saturday){
+            case Monday -> "Today is monday";  // ye return ho raha hai
+            case Tuesday -> "Today is tuesday";
+            default -> "weekend!!";
+        };
+
+        System.out.println(res);
     }
 }
