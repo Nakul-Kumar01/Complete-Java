@@ -18,7 +18,7 @@ public class test {
         - hmm enum ke andrr methods bhi define krr skte hn
         - hmm custom constructor bhi bana skte hn enum ke andr
         - enum ko hmm class ke andrr bhi likh skte hn
-
+   
          */
 
         System.out.println(DayClass.sunday);
