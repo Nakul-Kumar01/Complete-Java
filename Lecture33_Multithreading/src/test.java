@@ -37,7 +37,12 @@ public class test {
 
         - when java program starts, one thread begins running immediately called main Thread, this thread is responsible for executing the main method of a program.
 
+        - to create new thread : M-1  extend
 
          */
+
+
+        System.out.println("Hello world");
+        System.out.println(Thread.currentThread().getName()); // give name of current thread
     }
 }
