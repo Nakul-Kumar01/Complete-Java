@@ -27,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lecture30_wrapperClass/Lecture30_wrapperClass.iml" filepath="$PROJECT_DIR$/Lecture30_wrapperClass/Lecture30_wrapperClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture31_Math/Lecture31_Math.iml" filepath="$PROJECT_DIR$/Lecture31_Math/Lecture31_Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lecture32_Enums/Lecture32_Enums.iml" filepath="$PROJECT_DIR$/Lecture32_Enums/Lecture32_Enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lecture33_Multithreading/Lecture33_Multithreading.iml" filepath="$PROJECT_DIR$/Lecture33_Multithreading/Lecture33_Multithreading.iml" />
     </modules>
   </component>
 </project>
