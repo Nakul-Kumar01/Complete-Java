@@ -29,6 +29,15 @@ public class test {
         - conclusion: 1) process mei multiple threads hote hn  (say 8 thread)
                       2) phale single core hote the: ek core multiple threads mei swithing krta tha
                       3) now we hv multiple cores: (say 2 cores) , one core switches b/w 4 threads and one core switches b/w another 4 threads
+
+        - java's multithreading are part of java.lang package
+        - in single core: java's multithreading is managed by JVM and the OS, which switch b/w threads to give illusion of concurrency
+        - in multicore: java's multithreading can take full adv of acailable cores. JVM can distribute threads across multiple cores, allowing true parallel execution of thread
+
+
+        - when java program starts, one thread begins running immediately called main Thread, this thread is responsible for executing the main method of a program.
+
+
          */
     }
 }
