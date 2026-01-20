@@ -41,7 +41,10 @@ public class test {
 
         - M-1
         - run method is overridden to define the code that constitutes the new thread
-        - start method is called to initiate the new thread
+        - start method is called to initiate the new thread  // simple run call kiya tho, simple method call hogi , new thread create nhi hogi
+
+        - M-2
+        - a thread object is created by passing an instance of world
          */
 
 
@@ -53,8 +56,14 @@ public class test {
         world w = new world();
         w.start(); //start the another thread // ek or independent kaam
 
-        for(int i=0;i<1000;i++){
-            System.out.println("Hello");
+//        M-2
+        world02 w2 = new world02();
+        Thread t2 = new Thread(w2);
+        t2.start();
+
+
+        for(int i=0;i<10;i++){
+            System.out.println(Thread.currentThread().getName());
         }
     }
 }
