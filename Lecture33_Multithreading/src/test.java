@@ -37,12 +37,24 @@ public class test {
 
         - when java program starts, one thread begins running immediately called main Thread, this thread is responsible for executing the main method of a program.
 
-        - to create new thread : M-1  extend
+        - to create new thread : M-1  extend the thread class  M-2 Implement the runnable interface
 
+        - M-1
+        - run method is overridden to define the code that constitutes the new thread
+        - start method is called to initiate the new thread
          */
 
 
         System.out.println("Hello world");
         System.out.println(Thread.currentThread().getName()); // give name of current thread
+
+
+//        M-1
+        world w = new world();
+        w.start(); //start the another thread // ek or independent kaam
+
+        for(int i=0;i<1000;i++){
+            System.out.println("Hello");
+        }
     }
 }
