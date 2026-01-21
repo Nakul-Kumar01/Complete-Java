@@ -45,6 +45,14 @@ public class test {
 
         - M-2
         - a thread object is created by passing an instance of world
+
+
+        - ### LifeCycle of a Thread
+           - New : thread created but not yet started
+           - Runnable : after start method is called. ready to run & waiting for CPU time
+           - Running : when thread is executing
+           - Blocked/waiting : thread waiting for a resource or for another thread to perform an action
+           - Terminated : when thread is finished executing
          */
 
 
