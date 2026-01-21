@@ -53,6 +53,10 @@ public class test {
            - Running : when thread is executing
            - Blocked/waiting : thread waiting for a resource or for another thread to perform an action
            - Terminated : when thread is finished executing
+
+           - In java, their is no Running state: in java Runnable means ya tho thread chal rahi hai ya fir ready to run hai
+
+           - Note : override methods mei hm throws use nhi kr skte
          */
 
 
@@ -62,12 +66,15 @@ public class test {
 
 //        M-1
         world w = new world();
-        w.start(); //start the another thread // ek or independent kaam
+//        w.start(); //start the another thread // ek or independent kaam
 
 //        M-2
         world02 w2 = new world02();
         Thread t2 = new Thread(w2);
+        System.out.println(t2.getState());  // tell the current state of thread
         t2.start();
+        System.out.println(t2.getState());  // gives Runnable
+        System.out.println(Thread.currentThread().getState());
 
 
         for(int i=0;i<10;i++){
