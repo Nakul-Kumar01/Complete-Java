@@ -20,7 +20,7 @@ public class test {
         - enum ko hmm class ke andrr bhi likh skte hn
    
          */
-
+    
         System.out.println(DayClass.sunday);
         System.out.println(DayClass.monday); // by Interface
 
