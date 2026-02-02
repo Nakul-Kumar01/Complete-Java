@@ -11,7 +11,7 @@ public class test01 {
 
         - There are 2 types of Locks:
            1) Intrinsic : these locks are buitin into every object in java. when u use synchronized keyword you are using these automatic locks
-           2) Explicit :
+           2) Explicit : advance locks, you explicitly say when to lock and unlock , giving you more control
          */
         Counter counter = new Counter();
 
