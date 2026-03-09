@@ -8,9 +8,9 @@ public class Method01 {
 
 //        System.out.println(upperFun("   nakul  "));
 
-//        String s = "nakul";
-//        System.out.println(upper(s));
-//        System.out.println(s);
+        String s = "nakul";
+        System.out.println(upper(s));
+        System.out.println(s);
     }
 
     public static int sumOfArray(int[] arr){

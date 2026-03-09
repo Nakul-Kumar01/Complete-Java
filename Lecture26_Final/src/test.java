@@ -12,6 +12,9 @@ public class test {
        - using with:
          - variable - does not change value of variable // constant krr diya
          - method - we cannot Override this Method
+                    -> final prevents overriding, not overloading.
+                    -> The method can still be inherited.
+                    -> The method can still be called normally.
          - class - now this class is not extendable // koi dusri class extend nhi krr skti
 
 

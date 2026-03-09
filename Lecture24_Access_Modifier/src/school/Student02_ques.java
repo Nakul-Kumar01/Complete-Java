@@ -9,7 +9,7 @@ public class Student02_ques {
 
     }
 
-    public static Student02_ques getInstance(){
+    public static Student02_ques getInstance(){   // why this method is static?? static method can be called using the class name, since object is not present initially
         if(st == null){   // run only one time , after that 'st' will not be null anymore
             st = new Student02_ques();  // can access private constructor becoz it is within same class
         }
