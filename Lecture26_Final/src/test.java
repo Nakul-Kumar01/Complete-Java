@@ -18,7 +18,7 @@ public class test {
          - class - now this class is not extendable // koi dusri class extend nhi krr skti
 
 
-       -** Can we use final with Constructor ??  not allowed, bcoz final is used to prevent inheritance, but constructor tho inherite hote hi nhi hai
+       -** Can we use final with Constructor ??  not allowed, bcoz final is used to prevent overriding, But constructors are never overridden (they are not inherited by subclasses).
      */
 
         Car c = new Car();
