@@ -13,6 +13,11 @@ public class test {
         - lock.tryLock(1000, TimeUnit.MILLISECONDS) : dusri thread 1 sec tk wait kregi agr lock free ho jae to varna return hojaegi with value false
         - lock.unlock()  : release the lock
         - lock.lock()  (not used much) : synchronise ki trha hai // dusri thread wait krti rahegi ki kbb lock release hogi...
+
+        - new ReentrantLock(true) :  this will maintain the fairness of Locks -> jo phale lock ke pass aaya uss thread ko Lock mil jaega
+
+        - why we preffer ExplicitLock over synchronised Locks ???
+           - in synchronised : No fairness gurrentee , hving indefinite blocking , enable Read/write Locking(by taking 2 locks)
          */
 
         // without Explicit Lock:

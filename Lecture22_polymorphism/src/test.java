@@ -24,6 +24,7 @@ public class test {
 
         Dog myDog = (Dog)dog; // since 'dog' stores object of Dog class, therefore we hv downCast the 'dog' into 'myDog' // called 'DownCasting'
 
+        myDog.sayBye();  // now we can call this method
 
 
     }

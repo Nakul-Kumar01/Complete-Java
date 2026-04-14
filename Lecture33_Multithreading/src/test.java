@@ -32,7 +32,7 @@ public class test {
 
         - java's multithreading are part of java.lang package
         - in single core: java's multithreading is managed by JVM and the OS, which switch b/w threads to give illusion of concurrency
-        - in multicore: java's multithreading can take full adv of acailable cores. JVM can distribute threads across multiple cores, allowing true parallel execution of thread
+        - in multicore: java's multithreading can take full adv of available cores. JVM can distribute threads across multiple cores, allowing true parallel execution of thread
 
 
         - when java program starts, one thread begins running immediately called main Thread, this thread is responsible for executing the main method of a program.
