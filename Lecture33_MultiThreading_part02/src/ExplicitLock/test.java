@@ -50,5 +50,11 @@ public class test {
         t1.start();
         t2.start();
 
+
+        // #### Read/write Locking
+        // synchronised cannot be able to distinguise b/w read and write operation
+        // ReadWriteLock (interface) : allow multiple threads to read untile unless any thread is writing
+        // readLock.lock() : this will only allow reading if writeLock.lock() is not aquire by any thread
+        // see the example from yourself
     }
 }
