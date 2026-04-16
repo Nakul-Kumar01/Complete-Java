@@ -25,8 +25,6 @@ public class test01 {
 
         - Future<?>  :  agr  kuch return kra hai task ne tho vo store krne ke liye
 
-
-
          */
 
 
@@ -88,13 +86,14 @@ public class test01 {
         // working of future  // to get datatype and variable automatically use alt+Enter
         ExecutorService executor1 = Executors.newSingleThreadExecutor();
         Future<Integer> res = executor1.submit(() -> 42);
-
+        executor1.shutdown();
         try {
             System.out.println(res.get());  // hving various methods like res.done() // whether task is completed or not
         }
         catch (Exception e){
 
         }
+
     }
 
 
